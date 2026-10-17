@@ -34,7 +34,8 @@ cli = cache / 'vpk/tools/net8.0/any/vpk.dll'
 if not cli.exists():
     with zipfile.ZipFile(archive) as z:
         z.extractall(cache / 'vpk')
-run(sys.executable, ROOT / 'tools/build.py')
+if '--package-only' not in sys.argv:
+    run(sys.executable, ROOT / 'tools/build.py')
 run(sys.executable, ROOT / 'tools/verify_bundle.py')
 # Create a branded progress splash using the same application icon.
 from PySide6.QtWidgets import QApplication
@@ -61,9 +62,9 @@ run('dotnet', cli, 'pack', '--packId', 'SUWS.ReelsTT',
     '--runtime', 'win-x64', '--channel', 'win-preview',
     '--icon', ROOT / 'assets/reelstt.ico', '--splashImage', cache / 'splash.png',
     '--splashProgressColor', '#B6A0F5', '--shortcuts', 'StartMenuRoot',
-    '--releaseNotes', ROOT / 'RELEASE_NOTES.md', '--outputDir', ROOT / 'Releases')
+    '--releaseNotes', ROOT / 'RELEASE_NOTES.md', '--outputDir', ROOT / 'Releases' / __version__)
 # Include the source/license index independently of installation.
-releases = ROOT / 'Releases'
+releases = ROOT / 'Releases' / __version__
 with zipfile.ZipFile(releases / f'ReelsTT-{__version__}-licenses.zip', 'w', zipfile.ZIP_DEFLATED) as z:
     for file in [ROOT / 'LICENSE', ROOT / 'THIRD_PARTY.md', *sorted((ROOT / 'licenses').rglob('*'))]:
         if file.is_file():

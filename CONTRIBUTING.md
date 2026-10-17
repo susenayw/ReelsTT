@@ -15,3 +15,5 @@ components as MIT. See `THIRD_PARTY.md` and `licenses/`.
 Release packaging uses PyInstaller onedir output followed by Velopack, not MSI
 or a legacy wizard. Installation hooks must execute before application startup,
 and persistent user data must remain outside versioned application directories.
+
+Release output is versioned under `Releases/<version>/`. Use a fresh output directory for each release; Velopack rejects replacing an equal or newer version. `python tools/release.py --package-only` reuses an existing verified PyInstaller build.
