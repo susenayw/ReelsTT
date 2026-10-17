@@ -9,6 +9,16 @@ Windows 10/11 x64 is required. The Velopack installer uses a compact progress sp
 
 This experimental release is **unsigned**. Windows may show an unknown-publisher warning. SHA256SUMS.txt verifies download integrity; it does not replace a digital signature.
 
+## Screenshots
+
+**Folder library** — browse local video collections, search folders, and switch views.
+
+![ReelsTT folder library showing four local video collections](docs/screenshots/library.png)
+
+**Video playback** — browse a folder as a feed with playback, sound, loop, and favorite controls.
+
+![ReelsTT playing a local gameplay video with playback controls](docs/screenshots/playback.png)
+
 ## Use
 
 Add a local folder with **Ctrl+O** or drag a folder onto the window. Search, sort, switch grid/list view, and save favorites. Double-click a video to enter the feed.
