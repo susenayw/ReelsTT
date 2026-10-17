@@ -1,0 +1,866 @@
+[
+  {
+    "component": "amf-headers",
+    "source_repositories": [
+      "https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/amf-headers.cmake"
+  },
+  {
+    "component": "angle-headers",
+    "source_repositories": [
+      "https://github.com/google/angle.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/angle-headers.cmake"
+  },
+  {
+    "component": "aom",
+    "source_repositories": [
+      "https://aomedia.googlesource.com/aom"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/aom.cmake"
+  },
+  {
+    "component": "avisynth-headers",
+    "source_repositories": [
+      "https://github.com/AviSynth/AviSynthPlus.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/avisynth-headers.cmake"
+  },
+  {
+    "component": "brotli",
+    "source_repositories": [
+      "https://github.com/google/brotli.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/brotli.cmake"
+  },
+  {
+    "component": "bzip2",
+    "source_repositories": [
+      "https://gitlab.com/bzip2/bzip2.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/bzip2.cmake"
+  },
+  {
+    "component": "c-ares",
+    "source_repositories": [
+      "https://github.com/c-ares/c-ares.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/c-ares.cmake"
+  },
+  {
+    "component": "cryptopp",
+    "source_repositories": [],
+    "source_archives": [
+      "https://github.com/weidai11/cryptopp/archive/CRYPTOPP_8_2_0.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/cryptopp.cmake"
+  },
+  {
+    "component": "curl",
+    "source_repositories": [
+      "https://github.com/curl/curl.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/curl.cmake"
+  },
+  {
+    "component": "dav1d",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/dav1d.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/dav1d.cmake"
+  },
+  {
+    "component": "davs2",
+    "source_repositories": [
+      "https://github.com/saindriches/davs2.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/davs2.cmake"
+  },
+  {
+    "component": "expat",
+    "source_repositories": [
+      "https://github.com/libexpat/libexpat.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/expat.cmake"
+  },
+  {
+    "component": "fast_float",
+    "source_repositories": [
+      "https://github.com/fastfloat/fast_float.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/fast_float.cmake"
+  },
+  {
+    "component": "ffmpeg",
+    "source_repositories": [
+      "https://github.com/FFmpeg/FFmpeg.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/ffmpeg.cmake"
+  },
+  {
+    "component": "flac",
+    "source_repositories": [
+      "https://github.com/xiph/flac.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/flac.cmake"
+  },
+  {
+    "component": "fontconfig",
+    "source_repositories": [
+      "https://gitlab.freedesktop.org/fontconfig/fontconfig.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/fontconfig.cmake"
+  },
+  {
+    "component": "freetype2",
+    "source_repositories": [
+      "https://github.com/freetype/freetype.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/freetype2.cmake"
+  },
+  {
+    "component": "fribidi",
+    "source_repositories": [
+      "https://github.com/fribidi/fribidi.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/fribidi.cmake"
+  },
+  {
+    "component": "game-music-emu",
+    "source_repositories": [
+      "https://bitbucket.org/mpyne/game-music-emu.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/game-music-emu.cmake"
+  },
+  {
+    "component": "glad",
+    "source_repositories": [
+      "https://github.com/Dav1dde/glad.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/glad.cmake"
+  },
+  {
+    "component": "glslang",
+    "source_repositories": [
+      "https://github.com/KhronosGroup/glslang.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/glslang.cmake"
+  },
+  {
+    "component": "gmp",
+    "source_repositories": [],
+    "source_archives": [
+      "https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.xz"
+    ],
+    "recipe": "licenses/native-build/packages/gmp.cmake"
+  },
+  {
+    "component": "graphengine",
+    "source_repositories": [
+      "https://github.com/sekrit-twc/graphengine.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/graphengine.cmake"
+  },
+  {
+    "component": "harfbuzz",
+    "source_repositories": [
+      "https://github.com/harfbuzz/harfbuzz.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/harfbuzz.cmake"
+  },
+  {
+    "component": "highway",
+    "source_repositories": [
+      "https://github.com/google/highway.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/highway.cmake"
+  },
+  {
+    "component": "lame",
+    "source_repositories": [
+      "https://gitlab.com/shinchiro/lame.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/lame.cmake"
+  },
+  {
+    "component": "lcms2",
+    "source_repositories": [
+      "https://github.com/mm2/Little-CMS.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/lcms2.cmake"
+  },
+  {
+    "component": "libarchive",
+    "source_repositories": [
+      "https://github.com/libarchive/libarchive.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libarchive.cmake"
+  },
+  {
+    "component": "libaribcaption",
+    "source_repositories": [
+      "https://github.com/xqq/libaribcaption.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libaribcaption.cmake"
+  },
+  {
+    "component": "libass",
+    "source_repositories": [
+      "https://github.com/libass/libass.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libass.cmake"
+  },
+  {
+    "component": "libbluray",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/libbluray.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libbluray.cmake"
+  },
+  {
+    "component": "libbs2b",
+    "source_repositories": [
+      "https://github.com/alexmarsev/libbs2b.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libbs2b.cmake"
+  },
+  {
+    "component": "libdvdcss",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/libdvdcss.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libdvdcss.cmake"
+  },
+  {
+    "component": "libdvdnav",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/libdvdnav.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libdvdnav.cmake"
+  },
+  {
+    "component": "libdvdread",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/libdvdread.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libdvdread.cmake"
+  },
+  {
+    "component": "libiconv",
+    "source_repositories": [],
+    "source_archives": [
+      "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/libiconv.cmake"
+  },
+  {
+    "component": "libjpeg",
+    "source_repositories": [
+      "https://github.com/libjpeg-turbo/libjpeg-turbo.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libjpeg.cmake"
+  },
+  {
+    "component": "libjxl",
+    "source_repositories": [
+      "https://github.com/libjxl/libjxl.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libjxl.cmake"
+  },
+  {
+    "component": "libmfx",
+    "source_repositories": [
+      "https://github.com/lu-zero/mfx_dispatch.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libmfx.cmake"
+  },
+  {
+    "component": "libmodplug",
+    "source_repositories": [
+      "https://github.com/Konstanty/libmodplug.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libmodplug.cmake"
+  },
+  {
+    "component": "libmysofa",
+    "source_repositories": [
+      "https://github.com/hoene/libmysofa.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libmysofa.cmake"
+  },
+  {
+    "component": "libopenmpt",
+    "source_repositories": [],
+    "source_archives": [
+      "https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.7.12+release.autotools.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/libopenmpt.cmake"
+  },
+  {
+    "component": "libopusenc",
+    "source_repositories": [
+      "https://github.com/xiph/libopusenc.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libopusenc.cmake"
+  },
+  {
+    "component": "libplacebo",
+    "source_repositories": [
+      "https://github.com/haasn/libplacebo.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libplacebo.cmake"
+  },
+  {
+    "component": "libpng",
+    "source_repositories": [
+      "https://github.com/glennrp/libpng.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libpng.cmake"
+  },
+  {
+    "component": "libpsl",
+    "source_repositories": [
+      "https://github.com/rockdaboot/libpsl.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libpsl.cmake"
+  },
+  {
+    "component": "libressl",
+    "source_repositories": [],
+    "source_archives": [
+      "https://cdn.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.1.5.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/libressl.cmake"
+  },
+  {
+    "component": "libsamplerate",
+    "source_repositories": [
+      "https://github.com/libsndfile/libsamplerate.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libsamplerate.cmake"
+  },
+  {
+    "component": "libsdl2",
+    "source_repositories": [
+      "https://github.com/libsdl-org/SDL.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libsdl2.cmake"
+  },
+  {
+    "component": "libsixel",
+    "source_repositories": [
+      "https://github.com/saitoha/libsixel.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libsixel.cmake"
+  },
+  {
+    "component": "libsodium",
+    "source_repositories": [],
+    "source_archives": [
+      "https://github.com/jedisct1/libsodium/archive/1.0.18.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/libsodium.cmake"
+  },
+  {
+    "component": "libsoxr",
+    "source_repositories": [
+      "https://gitlab.com/shinchiro/soxr.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libsoxr.cmake"
+  },
+  {
+    "component": "libsrt",
+    "source_repositories": [
+      "https://github.com/Haivision/srt.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libsrt.cmake"
+  },
+  {
+    "component": "libssh",
+    "source_repositories": [
+      "https://gitlab.com/libssh/libssh-mirror.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libssh.cmake"
+  },
+  {
+    "component": "libudfread",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/libudfread.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libudfread.cmake"
+  },
+  {
+    "component": "libunibreak",
+    "source_repositories": [
+      "https://github.com/adah1972/libunibreak.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libunibreak.cmake"
+  },
+  {
+    "component": "libuv",
+    "source_repositories": [],
+    "source_archives": [
+      "https://github.com/libuv/libuv/archive/v1.40.0.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/libuv.cmake"
+  },
+  {
+    "component": "libva",
+    "source_repositories": [
+      "https://github.com/intel/libva.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libva.cmake"
+  },
+  {
+    "component": "libvpl",
+    "source_repositories": [
+      "https://github.com/intel/libvpl.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libvpl.cmake"
+  },
+  {
+    "component": "libvpx",
+    "source_repositories": [
+      "https://chromium.googlesource.com/webm/libvpx.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libvpx.cmake"
+  },
+  {
+    "component": "libwebp",
+    "source_repositories": [
+      "https://chromium.googlesource.com/webm/libwebp.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libwebp.cmake"
+  },
+  {
+    "component": "libxml2",
+    "source_repositories": [
+      "https://github.com/GNOME/libxml2.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libxml2.cmake"
+  },
+  {
+    "component": "libzimg",
+    "source_repositories": [
+      "https://github.com/sekrit-twc/zimg.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libzimg.cmake"
+  },
+  {
+    "component": "libzvbi",
+    "source_repositories": [
+      "https://github.com/zapping-vbi/zvbi.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/libzvbi.cmake"
+  },
+  {
+    "component": "luajit",
+    "source_repositories": [
+      "https://github.com/openresty/luajit2.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/luajit.cmake"
+  },
+  {
+    "component": "lzo",
+    "source_repositories": [],
+    "source_archives": [
+      "https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/lzo.cmake"
+  },
+  {
+    "component": "mbedtls",
+    "source_repositories": [
+      "https://github.com/Mbed-TLS/mbedtls.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/mbedtls.cmake"
+  },
+  {
+    "component": "megasdk",
+    "source_repositories": [
+      "https://github.com/meganz/sdk.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/megasdk.cmake"
+  },
+  {
+    "component": "mpv-packaging",
+    "source_repositories": [
+      "https://github.com/shinchiro/mpv-packaging.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/mpv-packaging.cmake"
+  },
+  {
+    "component": "mpv-release",
+    "source_repositories": [],
+    "source_archives": [
+      "${LINK}"
+    ],
+    "recipe": "licenses/native-build/packages/mpv-release.cmake"
+  },
+  {
+    "component": "mpv",
+    "source_repositories": [
+      "https://github.com/mpv-player/mpv.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/mpv.cmake"
+  },
+  {
+    "component": "mujs",
+    "source_repositories": [
+      "https://codeberg.org/ccxvii/mujs.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/mujs.cmake"
+  },
+  {
+    "component": "nettle",
+    "source_repositories": [
+      "https://gitlab.com/shinchiro/nettle.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/nettle.cmake"
+  },
+  {
+    "component": "nghttp2",
+    "source_repositories": [
+      "https://github.com/nghttp2/nghttp2.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/nghttp2.cmake"
+  },
+  {
+    "component": "nghttp3",
+    "source_repositories": [
+      "https://github.com/ngtcp2/nghttp3.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/nghttp3.cmake"
+  },
+  {
+    "component": "ngtcp2",
+    "source_repositories": [
+      "https://github.com/ngtcp2/ngtcp2.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/ngtcp2.cmake"
+  },
+  {
+    "component": "nvcodec-headers",
+    "source_repositories": [
+      "https://github.com/FFmpeg/nv-codec-headers.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/nvcodec-headers.cmake"
+  },
+  {
+    "component": "ogg",
+    "source_repositories": [
+      "https://github.com/xiph/ogg.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/ogg.cmake"
+  },
+  {
+    "component": "openal-soft",
+    "source_repositories": [
+      "https://github.com/kcat/openal-soft.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/openal-soft.cmake"
+  },
+  {
+    "component": "openssl",
+    "source_repositories": [
+      "https://github.com/openssl/openssl.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/openssl.cmake"
+  },
+  {
+    "component": "opus-dnn",
+    "source_repositories": [],
+    "source_archives": [
+      "https://media.xiph.org/opus/models/opus_data-8a07d57c4fce6fb30f23b3e0d264004e04f1d7b421f5392ef61543d021a439af.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/opus-dnn.cmake"
+  },
+  {
+    "component": "opus-tools",
+    "source_repositories": [
+      "https://github.com/xiph/opus-tools.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/opus-tools.cmake"
+  },
+  {
+    "component": "opus",
+    "source_repositories": [
+      "https://github.com/xiph/opus.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/opus.cmake"
+  },
+  {
+    "component": "opusfile",
+    "source_repositories": [
+      "https://github.com/xiph/opusfile.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/opusfile.cmake"
+  },
+  {
+    "component": "readline",
+    "source_repositories": [
+      "https://git.sailfishos.org/mirror/readline.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/readline.cmake"
+  },
+  {
+    "component": "rubberband",
+    "source_repositories": [
+      "https://github.com/breakfastquay/rubberband.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/rubberband.cmake"
+  },
+  {
+    "component": "shaderc",
+    "source_repositories": [
+      "https://github.com/google/shaderc.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/shaderc.cmake"
+  },
+  {
+    "component": "speex",
+    "source_repositories": [
+      "https://github.com/xiph/speex.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/speex.cmake"
+  },
+  {
+    "component": "spirv-cross",
+    "source_repositories": [
+      "https://github.com/KhronosGroup/SPIRV-Cross.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/spirv-cross.cmake"
+  },
+  {
+    "component": "spirv-headers",
+    "source_repositories": [
+      "https://github.com/KhronosGroup/SPIRV-Headers.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/spirv-headers.cmake"
+  },
+  {
+    "component": "spirv-tools",
+    "source_repositories": [
+      "https://github.com/KhronosGroup/SPIRV-Tools.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/spirv-tools.cmake"
+  },
+  {
+    "component": "sqlite",
+    "source_repositories": [],
+    "source_archives": [
+      "https://www.sqlite.org/2020/sqlite-autoconf-3330000.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/sqlite.cmake"
+  },
+  {
+    "component": "subrandr",
+    "source_repositories": [
+      "https://github.com/afishhh/subrandr.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/subrandr.cmake"
+  },
+  {
+    "component": "svtav1",
+    "source_repositories": [
+      "https://gitlab.com/AOMediaCodec/SVT-AV1.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/svtav1.cmake"
+  },
+  {
+    "component": "termcap",
+    "source_repositories": [],
+    "source_archives": [
+      "https://ftp.gnu.org/gnu/termcap/termcap-1.3.1.tar.gz"
+    ],
+    "recipe": "licenses/native-build/packages/termcap.cmake"
+  },
+  {
+    "component": "uavs3d",
+    "source_repositories": [
+      "https://github.com/uavs3/uavs3d.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/uavs3d.cmake"
+  },
+  {
+    "component": "uchardet",
+    "source_repositories": [
+      "https://gitlab.freedesktop.org/uchardet/uchardet.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/uchardet.cmake"
+  },
+  {
+    "component": "vapoursynth",
+    "source_repositories": [
+      "https://github.com/vapoursynth/vapoursynth.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/vapoursynth.cmake"
+  },
+  {
+    "component": "vorbis",
+    "source_repositories": [
+      "https://github.com/xiph/vorbis.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/vorbis.cmake"
+  },
+  {
+    "component": "vulkan-header",
+    "source_repositories": [
+      "https://github.com/KhronosGroup/Vulkan-Headers.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/vulkan-header.cmake"
+  },
+  {
+    "component": "vulkan",
+    "source_repositories": [
+      "https://github.com/KhronosGroup/Vulkan-Loader.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/vulkan.cmake"
+  },
+  {
+    "component": "x264",
+    "source_repositories": [
+      "https://code.videolan.org/videolan/x264.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/x264.cmake"
+  },
+  {
+    "component": "x265",
+    "source_repositories": [
+      "https://github.com/Multicorewareinc/x265.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/x265.cmake"
+  },
+  {
+    "component": "xvidcore",
+    "source_repositories": [],
+    "source_archives": [
+      "\"https://downloads.xvid.com/downloads/xvidcore-1.3.7.tar.bz2\""
+    ],
+    "recipe": "licenses/native-build/packages/xvidcore.cmake"
+  },
+  {
+    "component": "xxhash",
+    "source_repositories": [
+      "https://github.com/Cyan4973/xxHash.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/xxhash.cmake"
+  },
+  {
+    "component": "xz",
+    "source_repositories": [
+      "https://github.com/tukaani-project/xz.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/xz.cmake"
+  },
+  {
+    "component": "zlib",
+    "source_repositories": [
+      "https://github.com/zlib-ng/zlib-ng.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/zlib.cmake"
+  },
+  {
+    "component": "zstd",
+    "source_repositories": [
+      "https://github.com/facebook/zstd.git"
+    ],
+    "source_archives": [],
+    "recipe": "licenses/native-build/packages/zstd.cmake"
+  }
+]

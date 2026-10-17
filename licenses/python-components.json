@@ -1,0 +1,86 @@
+[
+  {
+    "name": "PySide6-Essentials",
+    "version": "6.12.0",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "project_urls": [
+      "Homepage, https://pyside.org",
+      "Documentation, https://doc.qt.io/qtforpython",
+      "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+      "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+      "Tracker, https://qt-project.atlassian.net/browse/PYSIDE"
+    ]
+  },
+  {
+    "name": "shiboken6",
+    "version": "6.12.0",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "project_urls": [
+      "Homepage, https://pyside.org",
+      "Documentation, https://doc.qt.io/qtforpython",
+      "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+      "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+      "Tracker, https://qt-project.atlassian.net/browse/PYSIDE"
+    ]
+  },
+  {
+    "name": "python-mpv",
+    "version": "1.0.8",
+    "license": "GPLv2+ or LGPLv2.1+",
+    "project_urls": [
+      "homepage, https://github.com/jaseg/python-mpv"
+    ]
+  },
+  {
+    "name": "Send2Trash",
+    "version": "2.1.0",
+    "license": "BSD-3-Clause",
+    "project_urls": [
+      "Homepage, https://github.com/arsenetar/send2trash",
+      "Repository, https://github.com/arsenetar/send2trash.git",
+      "Issues, https://github.com/arsenetar/send2trash/issues"
+    ]
+  },
+  {
+    "name": "pywin32",
+    "version": "312",
+    "license": "PSF",
+    "project_urls": [
+      "Homepage, https://github.com/mhammond/pywin32",
+      "Changes, https://github.com/mhammond/pywin32/blob/main/CHANGES.md",
+      "Docs, https://mhammond.github.io/pywin32/",
+      "Bugs, https://github.com/mhammond/pywin32/issues",
+      "Support Requests, https://github.com/mhammond/pywin32/discussions",
+      "Mailing List, https://mail.python.org/mailman/listinfo/python-win32"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license": "BSD-3-Clause",
+    "project_urls": []
+  },
+  {
+    "name": "imageio-ffmpeg",
+    "version": "0.6.0",
+    "license": "BSD-2-Clause",
+    "project_urls": []
+  },
+  {
+    "name": "velopack",
+    "version": "1.2.161",
+    "license": "MIT",
+    "project_urls": []
+  },
+  {
+    "name": "pyinstaller",
+    "version": "6.22.3",
+    "license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+    "project_urls": [
+      "Homepage, https://pyinstaller.org",
+      "Documentation, https://pyinstaller.org",
+      "Source Code, https://github.com/pyinstaller/pyinstaller",
+      "Release Notes, https://pyinstaller.org/en/stable/CHANGES.html"
+    ]
+  }
+]

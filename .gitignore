@@ -1,0 +1,55 @@
+# Local runtime, user libraries, caches, and developer tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/
+portable-data/
+.release-tools/
+.release-test/
+Demo videos/
+prototype/
+
+# Generated executables/installers and downloaded native dependencies
+build/
+build-output/
+release-stage/
+Releases/
+_runtime/
+native/*
+!native/README.md
+!native/provenance.json
+*.spec
+*.exe
+*.dll
+*.pyd
+*.lib
+*.a
+*.7z
+*.zip
+*.nupkg
+*.tar.*
+
+# Credentials, certificates, signing keys, and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+credentials*.json
+
+# Machine-specific test output and private design references
+tests/latest-result.txt
+assets/app-preview.png
+VERIFICATION.md
+ReelFlow_Video_Player_Plan.md
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
